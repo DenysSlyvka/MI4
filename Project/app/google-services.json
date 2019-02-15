@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "477524216158",
+    "firebase_url": "https://fir-authapp-26e8d.firebaseio.com",
+    "project_id": "fir-authapp-26e8d",
+    "storage_bucket": "fir-authapp-26e8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477524216158:android:fa6515243ded0e08",
+        "android_client_info": {
+          "package_name": "com.example.denys.im3_native_app_quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477524216158-b5uo0oog78vcue0rcgi1ot5q7us2rsn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.denys.im3_native_app_quiz",
+            "certificate_hash": "9e695039cd20dd548fec7c5bc6c3911abf44dbfe"
+          }
+        },
+        {
+          "client_id": "477524216158-ap48rsvpq5aqefhbbddmmoa8v2msjodu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVVPFuHOeFNEugs71_4mcduitX6-xSFSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477524216158-ap48rsvpq5aqefhbbddmmoa8v2msjodu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.denys.im3_native_app_quiz">
+
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/login_screen_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".make_account"
+                android:label="@string/make_account_screen_name">
+        </activity>
+        <activity
+                android:name=".main_menu"
+                android:label="@string/main_menu_screen_name">
+        </activity>
+        <activity
+                android:name=".About"
+                android:label="@string/about_screen_name">
+        </activity>
+        <activity
+                android:name=".Highscore"
+                android:label="@string/highscore_screen_name">
+        </activity>
+        <activity
+                android:name=".game"
+                android:label="@string/quiz_screen_name">
+        </activity>
+        <activity android:name=".ForgotPasswordActivity">
+        </activity>
+    </application>
+
+</manifest>
