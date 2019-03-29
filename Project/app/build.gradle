@@ -37,4 +37,12 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.1'
     implementation 'com.google.firebase:firebase-database:16.0.1'
     implementation 'com.google.firebase:firebase-auth:16.0.1'
+
+    implementation 'com.android.volley:volley:1.1.0'
+
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
+    // Required only if Facebook login support is required
+    implementation 'com.facebook.android:facebook-login:4.40.0'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
 }
+com.google.gms.googleservices.GoogleServicesPlugin.config.disableVersionCheck = true
