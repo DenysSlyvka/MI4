@@ -23,38 +23,108 @@
 
     <div class="container">
         <div class="section">
-
-            <form action="#" name=quiz>
+            <form id="questions" action="#" name=quiz>
                 <p id="vraag"></p>
+                 
                 <p>
-                    <label>
+                    <label id=labelRadio0 style="display: none">
+                        <input id="radio0" name="group1" type="radio" />
+                        <span id="AntwoordRadio0"></span>
+                    </label>
+                </p>
+                <p>
+                    <label id=labelRadio1 style="display: none">
                         <input id="radio1" name="group1" type="radio" />
-                        <span id="antwoord1"></span>
+                        <span id="AntwoordRadio1"></span>
                     </label>
                 </p>
                 <p>
-                    <label>
+                    <label id=labelRadio2 style="display: none">
                         <input id="radio2" name="group1" type="radio" />
-                        <span id="antwoord2"></span>
+                        <span id="AntwoordRadio2"></span>
                     </label>
                 </p>
                 <p>
-                    <label>
+                    <label id=labelRadio3 style="display: none">
                         <input id="radio3" name="group1" type="radio" />
-                        <span id="antwoord3"></span>
+                        <span id="AntwoordRadio3"></span>
+                    </label>
+                </p>
+                
+                <p>
+                    <label id=labelRadio4 style="display: none">
+                        <input id="radio4" name="group1" type="radio" />
+                        <span id="AntwoordRadio4"></span>
+                    </label>
+                </p>
+                
+                <p>
+                    <label id=labelRadio5 style="display: none">
+                        <input id="radio5" name="group1" type="radio" />
+                        <span id="AntwoordRadio5"></span>
+                    </label>
+                </p>
+                
+                <p>
+                    <label id=labelRadio6 style="display: none">
+                        <input id="radio6" name="group1" type="radio" />
+                        <span id="AntwoordRadio6"></span>
+                    </label>
+                </p>
+                
+                <!-- Multiple choice multiple answer  MCMA-->
+                 <p>
+                    <label id=labelCheck0 style="display: none">
+                        <input id="check0" name="group2" type="checkbox" class="checks"/>
+                        <span id="AntwoordCheck0" class="checksValue"></span>
                     </label>
                 </p>
                 <p>
-                    <label>
-                        <input id="radio4" name="group1" type="radio" />
-                        <span id="antwoord4"></span>
+                    <label id=labelCheck1 style="display: none">
+                        <input id="check1" name="group2" type="checkbox" class="checks"/>
+                        <span id="AntwoordCheck1" class="checksValue"></span>
                     </label>
                 </p>
+                <p>
+                    <label id=labelCheck2 style="display: none">
+                        <input id="check2" name="group2" type="checkbox" class="checks"/>
+                        <span id="AntwoordCheck2" class="checksValue"></span>
+                    </label>
+                </p>
+                <p>
+                    <label id=labelCheck3 style="display: none">
+                        <input id="check3" name="group2" type="checkbox" class="checks"/>
+                        <span id="AntwoordCheck3" class="checksValue"></span>
+                    </label>
+                </p>
+                
+                <p>
+                    <label id=labelCheck4 style="display: none">
+                        <input id="check4" name="group2" type="checkbox" class="checks"/>
+                        <span id="AntwoordCheck4" class="checksValue"></span>
+                    </label>
+                </p>
+                
+                <p>
+                    <label id=labelCheck5 style="display: none">
+                        <input id="check5" name="group2" type="checkbox" class="checks"/>
+                        <span id="AntwoordCheck5" class="checksValue"></span>
+                    </label>
+                </p>
+                
+                <p>
+                    <label id=labelCheck6 style="display: none">
+                        <input id="check6" name="group2" type="checkbox" class="checks"/>
+                        <span id="AntwoordCheck6" class="checksValue"></span>
+                    </label>
+                </p>
+
             </form>
         </div>
     </div>
 
-    <button id="controleButton">Controle</button>
+    <button id="controleRadioButton" style="display: none">Controle</button>
+    <button id="controleCheckButton" style="display: none">Controle</button>
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
